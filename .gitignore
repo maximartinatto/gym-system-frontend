@@ -1,0 +1,42 @@
+# Dependencias y compilación
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+*.log
+
+# Configuración privada y despliegue local
+.env
+.env.*
+**/.env
+**/.env.*
+**/Dockerfile*
+**/[Dd]ockerfile*
+**/.dockerignore
+**/docker-compose*
+**/compose.yaml
+**/compose.yml
+**/nginx.conf
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.sql
+*.dump
+*.bak
+**/credentials*
+**/secrets.*
+/docs/LOCAL.md
+
+# Entorno de desarrollo
+.idea/
+.vscode/
+.codex/
+.agents/
+.aws/
+Thumbs.db
+.DS_Store
